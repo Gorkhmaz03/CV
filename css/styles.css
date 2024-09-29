@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: url("https://www.transparenttextures.com/patterns/asfalt-dark.png")
+      repeat,
+    url("https://images.unsplash.com/photo-1462212890918-5b2c92f9f5c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE2fHxzdGFycyUyMG5vdHN0cmF8ZW58MHx8fHwxNjk2Mjg1Mjg0&ixlib=rb-4.0.3&q=80&w=1080")
+      no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #777;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 16px;
+  color: #cfd8dc;
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.contact-info a {
+  color: #3f51b5;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.section {
+  padding: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+h2 {
+  font-size: 28px;
+  color: #3f51b5;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: #3f51b5;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.projects p strong {
+  color: #3f51b5;
+}
